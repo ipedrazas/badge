@@ -1,4 +1,4 @@
-FROM golang:alpine as build
+FROM golang:rc-alpine as build
 RUN apk add --no-cache ca-certificates git
 WORKDIR /build
 ADD . . 
