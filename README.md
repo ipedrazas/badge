@@ -58,4 +58,11 @@ a badge of a stack? I don't know, I'm open to suggestions, but having a list of 
 
 I guess that I could expose the API to pass the Docker image instead and let users craft their own stack... however, since I'm the only user so far and I'm quite lazy, I think that passing a Dockerfile and letting some automation do the hard work is nicer, because let's face it, I will change the Dockerfile, I will forget to update the badges and there you have it, stale documentation again...
 
+[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerimage-age-badge/starefossen/github-pages:198)](https://github.com/docker/docker.github.io)
+
+[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerimage-age-badge/alpine)](https://github.com/docker/docker.github.io)
+
+[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerimage-age-badge/nginx:mainline-alpine)](https://github.com/docker/docker.github.io)
+
+
 Anyway, let me know what do you think 🙌
