@@ -2,13 +2,13 @@
 
 Who does not love a pretty svg badge? The idea behind this project is to validate how useful is to have a visual cue of how old the base image(s) of your Dockerfile are. From newest to oldest, this is the general idea:
 
-[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile-age-badge/hexops/dockerfile)](https://github.com/ipedrazas/badge)
+[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile/age/badge/hexops/dockerfile)](https://github.com/ipedrazas/badge)
 
-[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile-age-badge/ipedrazas/badge)](https://github.com/ipedrazas/badge)
+[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile/age/badge/ipedrazas/badge)](https://github.com/ipedrazas/badge)
 
-[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile-age-badge/docker/docker.github.io/master)](https://github.com/ipedrazas/badge)
+[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile/age/badge/docker/docker.github.io/master)](https://github.com/ipedrazas/badge)
 
-[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile-age-badge/cloud66-oss/habitus/master)](https://github.com/ipedrazas/badge)
+[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile/age/badge/cloud66-oss/habitus/master)](https://github.com/ipedrazas/badge)
 
 We agree that time is relative, there's no discussion about it, however, what does it mean that a `Docker` image is old? time does not really provides an idea of the quality of the image, however, we know that the oldest a system gets, the hardest to update/maintain/support it. I'm not sure if there's a graph where you can see Number od CVEs as a function of time, but, the oldest something gets, the worst it turns (yes, I'm speaking from the experience of getting old and hating it 😹) so, that's it, that's the reason to have these little badges, because I don't remember how old I am 😱, and certainly I cannot remember the age of my Docker Images.
 
@@ -44,10 +44,10 @@ As you probably have noticed, yes, you can display a badge from a repo that it's
 
 In fact, in this page I'm displaying badges for the following projects:
 
-- [![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile-age-badge/hexops/dockerfile)](https://github.com/hexops/dockerfile)  [hexops/dockerfile](https://github.com/hexops/dockerfile)
-- [![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile-age-badge/ipedrazas/badge)](https://github.com/ipedrazas/badge)  [ipedrazas/badge](https://github.com/ipedrazas/badge)
-- [![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile-age-badge/docker/docker.github.io/master)](https://github.com/ipedrazas/badge) [docker/docker.github.io](https://github.com/docker/docker.github.io)
-- [![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile-age-badge/cloud66-oss/habitus/master)](https://github.com/ipedrazas/badge) [cloud66-oss/habitus](https://github.com/cloud66-oss/habitus)
+- [![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile/age/badge/hexops/dockerfile)](https://github.com/hexops/dockerfile)  [hexops/dockerfile](https://github.com/hexops/dockerfile)
+- [![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile/age/badge/ipedrazas/badge)](https://github.com/ipedrazas/badge)  [ipedrazas/badge](https://github.com/ipedrazas/badge)
+- [![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile/age/badge/docker/docker.github.io/master)](https://github.com/ipedrazas/badge) [docker/docker.github.io](https://github.com/docker/docker.github.io)
+- [![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile/age/badge/cloud66-oss/habitus/master)](https://github.com/ipedrazas/badge) [cloud66-oss/habitus](https://github.com/cloud66-oss/habitus)
 
 ## What's next?
 
@@ -58,11 +58,13 @@ a badge of a stack? I don't know, I'm open to suggestions, but having a list of 
 
 I guess that I could expose the API to pass the Docker image instead and let users craft their own stack... however, since I'm the only user so far and I'm quite lazy, I think that passing a Dockerfile and letting some automation do the hard work is nicer, because let's face it, I will change the Dockerfile, I will forget to update the badges and there you have it, stale documentation again...
 
-[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerimage-age-badge/starefossen/github-pages:198)](https://github.com/docker/docker.github.io)
+For example, the Docker Images referred in [docker/docker.github.io](https://github.com/docker/docker.github.io) are the following:
 
-[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerimage-age-badge/alpine)](https://github.com/docker/docker.github.io)
+[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerimage/age/badge/starefossen/github-pages:198)](https://github.com/docker/docker.github.io)
 
-[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerimage-age-badge/nginx:mainline-alpine)](https://github.com/docker/docker.github.io)
+[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerimage/age/badge/alpine)](https://github.com/docker/docker.github.io)
+
+[![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerimage/age/badge/nginx:alpine)](https://github.com/docker/docker.github.io)
 
 
 Anyway, let me know what do you think 🙌
