@@ -35,7 +35,7 @@ The only condition, so far, it's that the repo needs to have a `Dockerfile` call
 Then you constuct the markdown as follows:
 
 ```
-![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile-age-badge/[USER]/[REPO]/[BRANCH])
+![Dockerfile image badge](https://badge-c978et8lf73onu36rj30.apps.playground.napptive.dev/dockerfile/age/badge/[USER]/[REPO]/[BRANCH])
 ```
 
 and that's it, you have your badge!
